@@ -7,75 +7,167 @@
 	<meta name="autor" content="#">
 	<link rel="icon" href="#">
 
-	<title>Sneakers shop</title>
+	<title>Grant Karyer</title>
 
-	<!-- Bootstrap grid CSS -->
 	<link rel="stylesheet" href="./css/bootstrap-grid.min.css">
-
-	<!-- Fonts -->
-	<link rel="stylesheet" href="css/fonts-futura.css">
-
-	<!-- Custom styles for this template -->
+	<link rel="stylesheet" href="./css/fonts_roboto.css">
 	<link rel="stylesheet" href="./css/style.css">
 
-	<!-- slick-slider -->
-	<link rel="stylesheet" href="./slick/slick.css">
-	<link rel="stylesheet" href="./slick/slick-theme.css">
-
-	<!-- text-icons -->
-	<!-- <link rel="stylesheet" href="./css/fontello.css"> -->
-	
 </head>
+<body>
 
 	<header class="header">
-		<div class="background-pink"></div>
-		<div class="background-grey-pink"></div>
-		<div class="background-yellow"></div>
 
-		<div class="header-home">
-			<h1 class="visually-hidden">женские кожаные кроссовки</h1>
-			
-			<section class="header-home__menu">
-				<ul class="header-home__list">
-					<li>Качество</li>
-					<li>Размеры</li>
-					<li>Отзывы</li>
-					<li>Заказать</li>
-				</ul>
-			</section>
-			
-			<section class="header-home__info">
-				<p>Топ продаж <br><span>женские кожаные кроссовки <br></span><span>с выгодой -35%</span></p>
-			
-				<div class="header-home__white_photo_woman_sneaker">
-					<img src="" alt="">
-				</div>
-				<div class="header-home__black_photo_woman_sneaker">
-					<img src="" alt="">
-				</div>
-				<div class="header-home__red_photo_woman_sneaker">
-					<img src="" alt="">
-				</div>
-			
-				<div class="header-home__timer">
-					<p>предложение действует</p>
-				</div>
-			
-				<button class="header-home-button"></button>
-			</section>
-		</div>
+
+		<!-- Секция видео - фонового изображения -->
+		<section class="video-bg">
+			<video width="100%" height="auto" preload="auto" autoplay="autoplay" loop="loop" poster="./img/img_fon.jpg">
+				<source src="img/video_fon.mp4" type="video/mp4"></source>
+			</video>
+		</section>
+		<div class="header__line"></div>
+
+
+		<!-- Секция меню и логотипа в шапке сайта -->
+		<section class="header__menu">
+			<div class="menu__icon">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<div class="menu__icon__close visually-hidden">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<div class="header__menu__logo">
+				<h1 class="header__menu__logo__title-script">ТОВ "Грант Карьер"</h1>
+				<img class="header__menu__logo__img-script" src="./img/logo_yellow.png" alt="">
+			</div>
+
+			<ul class="header__menu__list">
+				<li><a href="#">Главная</a></li>
+				<li><a href="about-us.html">О нас</a></li>
+				<li class="header__submenu"><a href="production.html">Продукция</a>
+					<ul class="header__submenu-list hidden">
+						<li><a href="production_page-1.html">Отсев 0-5</a></li>
+						<li><a href="production_page-2.html">Гранпыль 0-5</a></li>
+						<li><a href="production_page-3.html">С7, Щебнево-песчаная смесь 0-40</a></li>
+						<li><a href="production_page-4.html">C5, Щебнево-песчаная смесь 0-70</a></li>
+						<li><a href="production_page-5.html">Щебень 5-10</a></li>
+						<li><a href="production_page-6.html">Щебень 5-20</a></li>
+						<li><a href="production_page-7.html">Щебень 10-20</a></li>
+						<li><a href="production_page-8.html">Щебень 20-40</a></li>
+						<li><a href="production_page-9.html">Щебень 40-70</a></li>
+						<li><a href="production_page-10.html">Щебень цветной</a></li>
+					</ul>
+				</li>
+				<li><a href="price-list.html">Прайс</a></li>
+				<li><a href="certificates.html">Сертификаты</a></li>
+				<li><a href="news.html">Новости</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+		</section>
+
+
+		<!-- Секция главной страници -->
+		<section class="header__title">
+			<div class="header__title__text">
+				<h2>ПРОИЗВОДИМ И РЕАЛИЗУЕМ</h2>
+				<h3>ЩЕБЕНЬ</h3>
+				<h3>ОТСЕВ</h3>
+				<h3>ДОСТАВКА ЖД</h3>
+			</div>
+			<div class="header__title__phone">
+				<p>+380 (096) 611-83-83</p>
+				<p>+380 (099) 272 83-83 </p>
+			</div>
+		</section>
 	</header>
 
-	<main>
-		<div class="pink"></div>
-		<div class="grey-pink"></div>
-		<div class="yellow">
-		<!-- 	<img src="./img/yellow_fon.png" alt=""> -->
-		</div>
+	<main class="main">
+
+
+		<!-- Секция описания под главной страницей -->
+		<section class="main__dsc">
+			<div class="main__dsc__img-1"><img src="./img/quality-1.png" alt=""></div>
+			<p>НАША ПРОДУКЦИЯ СООТВЕСТВУЕТ ВСЕМ САМЫМ ВЫСОКИМ СТАНДАРТАМ КАЧЕСТВА, ПОЭТОМУ С НАМИ РАБОТАЮТ КРУПНЕЙШИЕ АСФАЛЬТНЫЕ ЗАВОДЫ, СТРОИТЕЛЬНЫЕ КОМПАНИИ, СЕТИ СУПЕРМАРКЕТОВ. МЫ В СИЛАХ ОТГРУЗИТЬ ЛЮБОЕ КОЛИЧЕСТВО ПРОДУКЦИИ В МИНИМАЛЬНЫЙ СРОК, ДО 2000 ТОНН В ДЕНЬ!</p>
+			<div class="main__dsc__img-2"><img src="./img/quality-2.png" alt=""></div>
+		</section>
+
+
+		<!-- Секция фото галереи -->
+		<section class="main__foto-product">
+			<div class="main__foto-product__gallery">
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/0.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/1.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/2.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/3.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/4.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/5.png" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/6.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/7.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/8.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/9.jpeg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/10.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/11.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/12.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/13.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image"><img src="./img/index_main_foto-product-gallery/14.jpg" alt=""></div>
+				<div class="main__foto-product__gallery__image hidden-1980"><img src="./img/index_main_foto-product-gallery/15.jpg" alt=""></div>
+			</div>
+		</section>
 	</main>
 
-	<footer>
-		
+	<footer class="footer">
+
+
+		<!-- Секция контакты -->
+		<section class="footer__contact">
+			<div class="footer__contact__dsc">
+				<p>НАС ВЫБИРАЮТ ПРОФЕССИОНАЛЫ</p>
+				<span>+380 (096) 611-83-83</span>
+				<span>+380 (099) 272 83-83 </span>
+				<div class="footer-arrow-1"></div>
+				<div class="footer-arrow-2"></div>
+			</div>
+		</section>
+
+
+		<!-- Секция карты google -->
+		<section class="footer__maps">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3130.0814105771515!2d28.499583315883495!3d49.98265242884154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDU4JzU3LjUiTiAyOMKwMzAnMDYuNCJF!5e1!3m2!1sru!2sua!4v1568416562761!5m2!1sru!2sua" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</section>
+
+
+		<!-- Секция футер контакты -->
+		<section class="footer__top">
+			<div class="footer__top__contact">
+				<h3>Контакты</h3>
+				<p>Адрес:</p>
+				<span>Житомирская область, с. Швайковка, </span><br>
+				<span>ул. Воинов Интернационалистов, 24</span>
+				<p>Телефоны:</p>
+				<span>+380 (096) 611-83-83</span><br>
+				<span>+380 (099) 272 83-83 </span>
+			</div>
+			<div class="footer__top__work-time">
+				<h3>Рабочее время</h3>
+				<p>Понедельник-Пятница: с 09:00 до 18:00</p>
+				<p>Суббота: с 09:00 до 14:00</p>
+				<p>Воскресенье: выходной</p>
+			</div>
+		</section>
+
+
+		<!-- Секция футер права -->
+		<section class="footer__bottom">
+			<div class="footer__bottom__dsc">&copy;Y.Bodnar 2019, все права защищены</div>
+		</section>
 	</footer>
 
 
@@ -88,7 +180,5 @@
 	
 	<!-- JavaScript -->
 	<script src="./js/script.js"></script>
-<body>
-	
 </body>
 </html>

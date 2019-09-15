@@ -1,0 +1,174 @@
+.header
+	
+	&__menu
+		position: relative
+		z-index: 4
+		width: 1200px
+		height: 410px
+		margin: auto
+		padding: 10px 20px 0px 20px
+		display: flex
+		justify-content: space-between
+
+		&__logo
+			display: flex
+			align-items: center
+			height: 70px
+
+			img
+				width: 85px 
+				height: 70px
+				margin-left: 20px
+
+			h1
+				color: #FFA500
+				font-size: 27px
+				font-weight: 500
+				margin: 5px 0px 0px 0px
+
+		&__list
+			position: absolute
+			left: 400px
+			display: flex
+			justify-content: space-around
+			margin: 0
+			padding: 0
+
+			li
+				list-style: none
+				font-size: 21px
+				font-weight: 600
+				margin-left: 20px
+				height: 30px
+
+				a
+					text-decoration: none
+					color: #fefefe
+
+				&:hover
+					cursor: pointer
+					border-bottom: 3px solid #ffd700
+
+
+.header__submenu
+	position: relative
+	padding: 0px 10px
+
+	&-list
+		position: absolute
+		top: 30px
+		left: -60px
+
+		li
+			font-size: 16px
+			width: 280px
+			height: 20px
+			background-color: rgba(128, 128, 128, 0.5)
+			margin-top: 5px
+
+			a
+				text-decoration: none
+				color: #fefefe
+
+.header__submenu:hover
+	border-bottom: 1px
+	background-color: rgba(128, 128, 128, 0.5)
+
+.header__submenu:hover .header__submenu-list
+	transform: scaleY(1)
+
+
+
+
+.menu__icon 
+	display: none
+	width: 45px
+	height: 35px
+	position: relative
+	cursor: pointer
+	margin-top: 20px
+
+
+.menu__icon span 
+	display: block
+	position: absolute
+	height: 9px
+	width: 100%
+	background: #FFA500
+	border-radius: 9px
+	opacity: 1
+	left: 0
+	transform: rotate(0deg)
+	transition: .25s ease-in-out
+
+
+.menu__icon span:nth-child(1) 
+	top: 0px
+
+
+.menu__icon span:nth-child(2), .menu__icon span:nth-child(3)
+	top: 13px
+
+
+.menu__icon span:nth-child(4) 
+	top: 26px
+
+
+
+
+
+.menu__icon__close
+	width: 45px
+	height: 35px
+	position: relative
+	cursor: pointer
+	margin-top: 33px
+	left: -406px
+
+
+.menu__icon__close span 
+	display: block
+	position: absolute
+	height: 9px
+	width: 100%
+	background: #FFA500
+	border-radius: 9px
+	opacity: 1
+	left: 0
+	transform: rotate(0deg)
+	transition: .25s ease-in-out
+
+.menu__icon__close span:nth-child(1) 
+	top: 18px
+	width: 0%
+	left: 50%
+
+
+.menu__icon__close span:nth-child(2) 
+	transform: rotate(45deg)
+
+
+.menu__icon__close span:nth-child(3) 
+	transform: rotate(-45deg)
+
+
+.menu__icon__close span:nth-child(4) 
+	top: 18px
+	width: 0%
+	left: 50%
+
+
+
+
+
+
+
+
+
+.header__line
+	width: 100%
+	height: 1px
+	position: relative
+	z-index: 3
+	top: 114px
+	border-bottom: #ffd700 0.5px solid
